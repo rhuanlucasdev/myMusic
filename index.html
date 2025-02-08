@@ -5,54 +5,266 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="barra-principal">
-            <a href="simbolodeonda">simbolodeonda</a>
-            <div>
-                <a href="Home">Home</a>
-                <div><a href="Pesquisa">Pesquisa</a>
-                    <a href="nevegar">nevegar</a>
-                    <div>
-                        <a href="Premio">premio</a>
-                        <a href="Suport">suport</a>
-                        <a href="Baixar">baixar</a>
-                        <Div>
-                                <a href="Instalar">instalar</a>
-                                <a href="Increver">increver-se</a>
-                            <a href="Entrar">entrar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    
+    <div class="sidebar">
+        <div class="logo">
+            <a href="">
+                <img src="public/logo.png" alt="Logo">
+            </a>
         </div>
-    </header>
-    <main>
-        <div class="left-side">
-            <div class="left-side-buttons">
-                ICON Sua Biblioteca +
-            </div>
-            <div class="left-side-cards">
-                <div class="card">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore, quis earum assumenda illum repudiandae nam dolor quas doloremque natus voluptatem sit fuga quam vitae error illo aperiam magnam explicabo?</p>
-                </div>
-                <div class="card">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore, quis earum assumenda illum repudiandae nam dolor quas doloremque natus voluptatem sit fuga quam vitae error illo aperiam magnam explicabo?</p>
-                </div>
-            </div>
-            <div class="left-side-links">
-                <div class="links">
-                    legal segurança e centro de privacidade politica de privacidade cookies sobre anúncios acessibilidade Cookies
-                </div>
-            </div>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="right-side">
-            ARTISTAS POPULARES 
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-plus-square"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-heart"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </main>
-    <footer>
+        <div class="polices">
+            <ul>
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-    </footer>
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="#">Premium</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Download</a>
+                    </li>
+                    <li class="divider">|</li>
+                    <li>
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Log In</button>
+            </div>
+        </div>
+
+
+        <div class="spotify-playlists">
+            <h2>Spotify Playlists</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+            </div>
+        </div>
+        <div class="spotify-playlists">
+            <h2>Focus</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+            </div>
+        </div>
+        <div class="spotify-playlists">
+            <h2>Mood</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+                <div class="item">
+                    <img src="./public/playlists/oproprio.jpg">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>This is Yago Oproprio</h4>
+                    <p>This is Yago Oproprio. Todos os maiores h...</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="preview">
+            <div class="text">
+                <h6>Preview of Spotify</h6>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <div class="button">
+                <button type="button">Sign up free</button>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
